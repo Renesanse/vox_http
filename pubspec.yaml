@@ -1,0 +1,15 @@
+name: vox_http
+description: http clint with requests cancelation and isolate decoding in separated isolate
+version: 0.0.1
+homepage: https://github.com/Renesanse/vox_http
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  cross_file: ^0.3.3+2
+  http: ^0.13.5
+  http_parser: ^4.0.2
+  worker_manager: ^4.5.1
+  shared_preferences: ^2.0.16
+
